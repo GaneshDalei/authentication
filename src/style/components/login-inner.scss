@@ -1,0 +1,75 @@
+body{
+
+}
+.login-wapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -webkit-fill-available;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+.login-inner{
+    width: 330px;
+    height: 307px;
+    padding: 48px 40px 36px;
+    border-radius: 8px;
+    border: 1px solid #dadce0;
+
+.input-user{
+
+        color: #202124;
+        font-size: 16px;
+        height: 28px;
+        margin: 2px;
+        padding: 12px 14px;
+        z-index: 1;
+        width: 263px;
+    }
+    .submite_container{
+        display: flex;
+        margin-top: 25px;
+        margin-bottom:20px;
+        
+        .Forgot-password{
+            box-shadow: none;
+            color: #1a73e8;
+            font-family: 'Google Sans',arial,sans-serif;
+            font-size: inherit;
+            letter-spacing: .25px;
+            cursor: pointer;
+            padding: 10px;
+            text-decoration: none;
+
+            
+        }
+        .SubmitButton{
+            width: 100px;
+            padding: 10px;
+            background-color: #1a73e8;
+            border: none;
+            margin-left: 30px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .Forgot-password:hover{
+            background-color: #cbe2ff;
+            padding: 10px;
+            text-decoration: none;
+        }
+    }
+}
+
+
+}
+.Logout_button{
+    background-color: #1a73e8;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+}
